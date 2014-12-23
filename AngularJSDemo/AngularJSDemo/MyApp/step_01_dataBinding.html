@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myapp">
+<head>
+    <title></title>
+</head>
+<body>   
+    <div ng-controller="SimpleController">
+        Name:<br />
+        <input type="text" ng-model="vm.name" /> {{vm.name}}
+        <h3>Looping with the ng-repeat Derective</h3>
+        <ul>
+            <li ng-repeat="customer in vm.customers | filter:vm.name |orderBy: 'city'">{{customer.name |uppercase}} - {{customer.city |lowercase}}</li>
+        </ul>
+    </div>
+    <script src="../../Scripts/angular/angular.js"></script>
+    <script>
+        var myapp = angular.module('myapp', []);
+        myapp.controller('SimpleController', function ($scope) {
+            $scope.vm = {};
+            $scope.vm.customers = [{ name: 'John Smith', city: 'Phoenix' },
+                { name: 'John Doe', city: 'New York' }, { name: 'Jane Doe', city: 'San Francisco' }
+            ];
+        })
+    </script>
+</body>
+</html>
