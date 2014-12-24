@@ -144,13 +144,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\bootstrap-flatly.css" />
+    <Content Include="Content\bootstrap-sandstone.css" />
+    <Content Include="Content\bootstrap-yeti.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\xeditable.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="MyApp\app.js" />
     <Content Include="MyApp\controllers.js" />
+    <Content Include="MyApp\HighChartSample\app.js" />
+    <Content Include="MyApp\HighChartSample\controllers.js" />
+    <Content Include="MyApp\HighChartSample\factories.js" />
+    <Content Include="MyApp\HighChartSample\Partials\00_home.html" />
+    <Content Include="MyApp\HighChartSample\Partials\01_basicchart-a-main.html" />
+    <Content Include="MyApp\HighChartSample\Partials\01_basicchart-c-chart.html" />
+    <Content Include="MyApp\HighChartSample\Partials\02_chartinteraction.html" />
+    <Content Include="MyApp\HighChartSample\Partials\03_chartintegrate-a-main.html" />
+    <Content Include="MyApp\HighChartSample\Partials\03_chartintegrate-c-chart.html" />
+    <Content Include="MyApp\HighChartSample\Partials\03_chartintegrate-c-datatable.html" />
+    <Content Include="MyApp\HighChartSample\Partials\03_chartintegrate-c-gauage.html" />
+    <Content Include="MyApp\HighChartSample\step_04_highChartSample.html" />
     <Content Include="MyApp\routeViews\about.html" />
     <Content Include="MyApp\routeViews\home-list.html" />
     <Content Include="MyApp\routeViews\home.html" />
